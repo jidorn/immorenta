@@ -64,4 +64,8 @@ public abstract class Immobilier {
   public void setType(TypageEnum type) {
     this.type = type;
   }
+
+  public final int response(int param) {
+    return param + 1;
+  }
 }
